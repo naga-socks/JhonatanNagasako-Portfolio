@@ -12,7 +12,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  margin: 0; 
+  margin: 0;
 }
 
 header, nav, footer, section, article, div {
@@ -31,10 +31,10 @@ ul {
 
 
 /*
- *
- * Common
- * 
- */
+*
+* Common
+*
+*/
 
 .news__more {
   float: right;
@@ -45,10 +45,10 @@ ul {
 
 
 /*
- *
- * Header
- *
- */
+*
+* Header
+*
+*/
 
 .header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
@@ -71,18 +71,25 @@ ul {
 
 .header__title {
   font-weight: 300;
-  font-size: 3em;
+  font-size: 1.75em;
   margin: 0.75em 0.25em;
   display: inline-block;
   color: #212121;
 }
 
+.sub-header__title {
+  font-weight: 300;
+  font-size: 1.5em;
+  margin: 0.75em 0.25em;
+  display: inline-block;
+  color: #212121;
+}
 
 /*
- *
- * Top Level Navigation
- *
- */
+*
+* Top Level Navigation
+*
+*/
 
 .nav {
   width: 100%;
@@ -119,10 +126,10 @@ ul {
 
 
 /*
- *
- * Main
- *
- */
+*
+* Main
+*
+*/
 
 main {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
@@ -132,24 +139,29 @@ main {
 }
 
 /*
- *
- * Content
- *
- */
+*
+* Content
+*
+*/
 
 
 /*
- *
- * Hero
- *
- */
+*
+* Hero
+*
+*/
+
+.a{ /*CENTER THE FOOTER*/
+  text-align: center;
+}
 
 .hero {
   width: 100%;
   position: relative;
-  background-image: url("./images/dog.jpg");
+  background-image: url("./images/hawaii-crop1.jpg"); /*hawaii picture background*/
   background-size: cover;
-  min-height: 300px;
+  min-height: 350px;
+  /*border-radius:50%;*/
 }
 
 .hero article {
@@ -165,10 +177,10 @@ main {
 
 
 /*
- *
- * Top News
- *
- */
+*
+* Top News
+*
+*/
 
 .top-news {
   border-bottom: 1px solid #E0E0E0;
@@ -210,10 +222,10 @@ main {
 
 
 /*
- *
- * Sport Scores
- *
- */
+*
+* Sport Scores
+*
+*/
 
 .scores {
   padding-top: 1em;
@@ -227,7 +239,7 @@ main {
 
 .scores__table th,
 .scores__table td {
-  padding: 1em; 
+  padding: 1em;
 }
 
 .scores__table th {
@@ -266,10 +278,10 @@ main {
 }
 
 /*
- *
- * Weather
- *
- */
+*
+* Weather
+*
+*/
 
 .weather {
   flex-grow: 1;
@@ -321,10 +333,10 @@ main {
 
 
 /*
- *
- * Recent News
- *
- */
+*
+* Recent News
+*
+*/
 
 .recent-news {
   flex-grow: 1;
@@ -360,10 +372,10 @@ main {
 
 
 /*
- *
- * Footer
- *
- */
+*
+* Footer
+*
+*/
 
 footer {
   border-top: 1px solid #E0E0E0;
